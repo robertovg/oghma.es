@@ -1,0 +1,63 @@
+/*
+ * General
+ */
+html *{
+	font-family: arial, sans.serif;	
+}
+body{
+	 background-image: url(../images/background.jpg);
+	 background-repeat: repeat-x;
+	 background-color: #FFFFFF;
+}
+a, a:link, a:visited ,a:hover  {
+	color: black;
+}
+a:link, a:visited { 
+	text-decoration: none;
+}
+a:hover { 
+	text-decoration: underline;
+}
+/*
+ * 
+ */
+#container{
+	margin:0px auto auto auto;
+	width:500px;
+	
+}
+#main{
+	margin:50px 0px 0px 0px;
+
+}
+#logotipo{
+	width: 499px;
+	height: 176px;
+	background-color:#FFFFFF;
+	background-image:url("../images/oghma.png");
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+#logotipo:hover{
+	background-image:url("../images/oghmaOver.png");
+}
+#logotipoEscondido{
+	background-image:url("../images/oghmaOver.png");
+	display:none;
+}
+#portafolio{
+	margin-top: 15px;
+	text-align: center;
+}
+#foot{
+	text-align: center;
+}
+.eslogan{
+ 
+    font-weight: bold; 
+    font-size: 20px; 
+	text-align: right;
+    
+}
+
+
